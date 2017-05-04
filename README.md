@@ -36,7 +36,7 @@ So by now (hopefully) everyone is familiar with the CSS box model. But perhaps w
 
 That's one reason why the Flexbox Model was created - its a more logical layout model that was added to the CSS3 spec in order to streamline page structuring, using CSS properties that match more common layout needs.
 
-Flexbox is so new that [it doesn't yet have full browser support](http://caniuse.com/#search=flexbox), but that's no reason why we shouldn't learn it - within the next year, as IE11 support comes to an end, it will start to replace the CSS box model as the dominant tool for page structure - and we can arrive there already understanding it!
+Flexbox is so new that [it just recently obtained full browser support](http://caniuse.com/#search=flexbox)soon, it  may start to replace the CSS box model as the dominant tool for page structure. So it is for sure a great tool to learn!
 
 ## An Intro to The Flexbox Model
 The Flexbox Model is a series of CSS rules that affect the two main components of a web layout - the parent container, and the child elements. This is a structure we're already familiar with from past lessons - a block-level element is created as a "container", and holds inside of it a list of smaller elements:
