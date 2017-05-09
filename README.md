@@ -7,7 +7,7 @@ After this lesson, students will be able to:
 - Explain a scenario in which Flexbox would be useful
 - Create a simple layout using only Flexbox properties
 
-##Preparation
+## Preparation
 - Before this lesson, students should already be able to:
 - Write basic CSS
 - Write basic HTML
