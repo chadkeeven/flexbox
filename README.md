@@ -14,7 +14,7 @@ After this lesson, students will be able to:
 - Use the chrome console
 - Use the CSS box model to create simple layouts
 
-## Living Box Model - Round 1
+<!-- ## Living Box Model - Round 1
 
 Before we start in on Flexbox, let's recap the CSS box model. It's main properties are:
 
@@ -29,14 +29,14 @@ Before we start in on Flexbox, let's recap the CSS box model. It's main properti
 To make sure we still remember these, we're going to act them out. Half of the class will get a pad of post-its to write CSS properties on, and the other half has to act them out.
 > Note - Padding and Border might be hard to act out. Let's stick with the first 5 properties.
 
-If you have post-its, take two of them and write one CSS property/value on each. Hand each of your two post-its to a different person.
+If you have post-its, take two of them and write one CSS property/value on each. Hand each of your two post-its to a different person. -->
 
 ## Why Flexbox?
 So by now (hopefully) everyone is familiar with the CSS box model. But perhaps while constructing your last page layout, you noticed some of the flaws in the available tools - clearing and floating alone is enough of a headache to modern developers that many people working in the field have trouble describing how it works.
 
 That's one reason why the Flexbox Model was created - its a more logical layout model that was added to the CSS3 spec in order to streamline page structuring, using CSS properties that match more common layout needs.
 
-Flexbox is so new that [it just recently obtained full browser support](http://caniuse.com/#search=flexbox)soon, it  may start to replace the CSS box model as the dominant tool for page structure. So it is for sure a great tool to learn!
+Flexbox is so new that [it just recently obtained full browser support](http://caniuse.com/#search=flexbox). However, it's already begining to replace the CSS box model as the dominant tool for page structure. It's time to start learning this so you're prepared!
 
 ## An Intro to The Flexbox Model
 The Flexbox Model is a series of CSS rules that affect the two main components of a web layout - the parent container, and the child elements. This is a structure we're already familiar with from past lessons - a block-level element is created as a "container", and holds inside of it a list of smaller elements:
@@ -58,11 +58,8 @@ In the above code, our unordered list `flex-container` is holding a collection o
 
 Let's write some HTML we can come back to and use to visualize what we're talking about.
 
-1. Create an new directory called flexbox-practice (or fork this repo)
-2. Create html page called index.html with an externally linked css stylesheet called main.css
-3. Inside your html page create a "flex-container" `ul` holding six list items within, with each next node numbered.
-
-Your HTML should look something like this:
+1. Fork this repo and open the `flexboxPractice` directory
+2. Inside you'll see an `index.html` page with a "flex-container" `ul` holding six numbered list items:
 
 ```html
 	<html>
@@ -85,7 +82,8 @@ Your HTML should look something like this:
 	</html>
 </html>
 ```
-4. Let's also add some basic styles to reset our list and list items:
+
+4. You'll also see a `main.css` file, with some basic list resets:
 
 ```css
 ul {
@@ -99,6 +97,7 @@ ul li {
 	border: 1px solid #000;
 }
 ```
+
 ## The Flexbox Model and its components
 
 As we've discussed, the Flexbox Model has two main components - the parent element, and the children. Let's break down the Flexbox properties based on which object they're meant for:
@@ -204,7 +203,7 @@ Grab your browser window by the corner, and squish your screen (or use the mobil
 Now that we've learned two different layout models, let's combine them!
 In the begining of class, half the class was handed a pad of post its to write CSS properties on, and the other half had to act them out. This time, we'll have two stacks of post-its - one for CSS Box Model, and one for Flexbox Model. Please perform whatever role you didn't perform last round.
 
-## Column Flow - Paired Practice 
+## Column Flow - Squad Practice 
 
 In your career as a web developer, you'll almost always be asked to work with large datasets. As you gain the skills to sort and classify these data points behind the scenes with tools like Javascript, you'll also need to know how to show users these datasets in ways that are both meaningful and familiar to them. This often comes in the form of building layouts based on websites your clients are familiar with, or are widely popular.
 One such example is Pinterest, which did a lot to kick-off the wide-spread adoption of column-based, endless scrolling, tiled-based layouts:
