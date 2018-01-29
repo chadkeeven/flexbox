@@ -245,7 +245,7 @@ One such example is Pinterest, which did a lot to kick-off the wide-spread adopt
 
 This type of layout might have been intimidating only a few minutes ago - but now that we know flexbox, you might have a better idea of how to arrange this layout.
 
-Open the folder called pinterestPractice - inside, you'll find an HTML file populated with an assortment of cat photos. You'll also see a (mostly) blank CSS file attached - work with a partner to recreate the layout you see on Pinterest.com.
+Open the folder called pinterestPractice - inside, you'll find an HTML file populated with an assortment of photos. You'll also see a (mostly) blank CSS file attached - work with a partner to recreate the layout you see on Pinterest.com.
 
 Things to consider:
 
